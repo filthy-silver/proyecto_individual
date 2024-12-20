@@ -120,7 +120,7 @@ class Caso {
      * @param posBomb1 Posición de la primera bomba.
      */
     public void setPosBomb1(int posBomb1) {
-        if (posBomb1 > 0 && posBomb1 <= 10000) {
+        if (posBomb1 >= 0 && posBomb1 <= 10000) {
             this.posBomb1 = posBomb1;
         }
     }
@@ -134,7 +134,7 @@ class Caso {
      * @param posBomb2 Posición de la segunda bomba.
      */
     public void setPosBomb2(int posBomb2) {
-        if (posBomb2 > 0 && posBomb2 <= 10000) {
+        if (posBomb2 >= 0 && posBomb2 <= 10000) {
             this.posBomb2 = posBomb2;
         }
     }
